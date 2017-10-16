@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        /:year/:month/:day/:title/
+
+# Custom vars
+version:          2.1.0
+
+github:           metadata
+
+repository:       username/username.github.io
+userdisqus:       username
+
+# Setup
+author:
+  name:           "Nombre Apellido"
+  url:            https://twitter.com/usernameTwitter
+  twitter:        usernameTwitter
+
+paginate:         5
+
+title:            "Título del blog"
+tagline:          "línea descriptiva"
+description:      "lema/descripcion/breve frase."
+locale:           es_es
+encoding:         utf-8
+url:              https://username.github.io
+baseurl:          https://username.github.io/  
+google_analytics: UA-XXXXXXXXX-X
