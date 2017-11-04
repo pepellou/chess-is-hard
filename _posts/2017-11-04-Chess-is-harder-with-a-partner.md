@@ -7,7 +7,7 @@ comments: true
 categories: [funny, twitch]
 ---
 Some people think chess is an individual game and many chess players actually
-would prefer to be left alone when they're focuesd on a specific chess position.
+would prefer to be left alone when they're focused on a specific chess position.
 
 But it's been proved by experience that playing chess along with a partner can
 really be a lot of fun. We've experienced that in our classes.
