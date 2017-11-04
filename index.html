@@ -6,15 +6,15 @@ title: Home
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ post.url }}">
+      <a href="{{ site.url }}{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>
-    <span class="post-date">{{ post.date | date_to_string }} | <a href="{{ post.url }}#disqus_thread">Comments</a></span>
+    <span class="post-date">{{ post.date | date_to_string }} | <a href="{{ site.url }}{{ post.url }}#disqus_thread">Comments</a></span>
 
     {{ post.content | split:'<!--break-->' | first }}
     {% if post.content contains '<!--break-->' %}
-        <a href="{{ post.url }}">read full post</a>
+    <a href="{{ site.url }}{{ post.url }}">read full post</a>
      {% endif %}
 
   </div>
