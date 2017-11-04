@@ -10,22 +10,22 @@ version:          2.1.0
 
 github:           metadata
 
-repository:       username/username.github.io
-userdisqus:       username
+repository:       pepellou/pepellou.github.io
+userdisqus:       pepellou
 
 # Setup
 author:
-  name:           "Nombre Apellido"
-  url:            https://twitter.com/usernameTwitter
-  twitter:        usernameTwitter
+  name:           "Pepe Doval"
+  url:            https://twitter.com/pepellou
+  twitter:        pepellou
 
 paginate:         5
 
-title:            "Título del blog"
-tagline:          "línea descriptiva"
-description:      "lema/descripcion/breve frase."
+title:            "Be Chess"
+tagline:          "You all be chess"
+description:      "First step to enlightenment is not to seek for enlightenment."
 locale:           es_es
 encoding:         utf-8
-url:              https://username.github.io
-baseurl:          https://username.github.io/  
+url:              https://pepellou.github.io
+baseurl:          https://pepellou.github.io/  
 google_analytics: UA-XXXXXXXXX-X
