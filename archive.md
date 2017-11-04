@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Archivo
+title: Archive
 ---
 
 <p class="message">
-Aquí podrás encontrar todas las publicaciones en orden cronológico
+Here you can find all our posts in chronological order
 </p>
 <div id="archive">
 {% for post in site.posts %}

@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Acerca de
+title: About
 ---
 
-Hola!, somos XantarDev si quieres participar o apoyarnos puedes seguirnos en:
-* [Meetup](https://www.meetup.com/es-ES/XantarDev/){:target="_blank"}
-* [Twitter: @XantarDev](https://twitter.com/XantarDev){:target="_blank"}
-* [Nuestra web](http://www.xantardev.org){:target="_blank"}
+Hi!
 
-Saludos!
+This is [@kuartillo](https://twitter.com/kuartillo){:target="_blank"} and [@pepellou](https://twitter.com/pepellou){:target="_blank"} and we welcome you to this humble blog.
+
+Hope you enjoy it!

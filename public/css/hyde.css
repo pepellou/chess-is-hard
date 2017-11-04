@@ -57,6 +57,7 @@
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  height: 100%;
 }
 #nav-icon{
   width: 48px;
@@ -127,12 +128,15 @@
 #sidebar-copy, #sidebar-nav, #sidebar-description {
 	  display: none;
 }
+#sidebar-copy {
+    bottom: 0;
+    position: fixed;
+}
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
-    bottom: 0;
     width: 18rem;
     text-align: left;
   }
@@ -193,7 +197,6 @@ a.sidebar-nav-item:focus {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
-    bottom: 1rem;
     left:   1rem;
   }
 }

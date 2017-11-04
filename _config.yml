@@ -10,7 +10,7 @@ version:          2.1.0
 
 github:           metadata
 
-repository:       pepellou/pepellou.github.io
+repository:       pepellou/chess-is-hard
 userdisqus:       pepellou
 
 # Setup
@@ -21,11 +21,11 @@ author:
 
 paginate:         5
 
-title:            "Be Chess"
-tagline:          "You all be chess"
-description:      "First step to enlightenment is not to seek for enlightenment."
+title:            "Chess is Hard"
+tagline:          "First step to enlightenment is not to seek for enlightenment."
+description:      "Lights and shadows of a chess learning experience"
 locale:           es_es
 encoding:         utf-8
-url:              https://pepellou.github.io
-baseurl:          https://pepellou.github.io/  
+url:              https://pepellou.github.io/chess-is-hard
+baseurl:          https://pepellou.github.io/chess-is-hard/ 
 google_analytics: UA-XXXXXXXXX-X

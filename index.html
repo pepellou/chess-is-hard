@@ -10,11 +10,11 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-    <span class="post-date">{{ post.date | date_to_string }} | <a href="{{ post.url }}#disqus_thread">Comentarios</a></span>
+    <span class="post-date">{{ post.date | date_to_string }} | <a href="{{ post.url }}#disqus_thread">Comments</a></span>
 
     {{ post.content | split:'<!--break-->' | first }}
     {% if post.content contains '<!--break-->' %}
-        <a href="{{ post.url }}">...</a>
+        <a href="{{ post.url }}">read full post</a>
      {% endif %}
 
   </div>
@@ -23,17 +23,17 @@ title: Home
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Antiguos</a>
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Old</a>
   {% else %}
-    <span class="pagination-item older">Antiguos</span>
+    <span class="pagination-item older">Old</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Nuevos</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}">New</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Nuevos</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">New</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Nuevos</span>
+    <span class="pagination-item newer">New</span>
   {% endif %}
 </div>
